@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  font-size: 100%;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation-wrapper {
+  background: #ccc;
+}
+
+.navigation {
+  display: flex;
+  padding: 1em 0;
+}
+
+.navigation > * + * {
+  margin-left: 1em;
+}
+
+.navigation .link {
+  color: #555;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navigation .link:hover {
+  color: #000;
+}
+
+.py\:1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
